@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* header start */
+
+header {
+    width: 1440px;
+    height: 100px;
+    border-bottom: 1px solid #9d9999;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #1F2E35;
+    margin: auto;
+    gap: 50px;
+    list-style: none;
+    transition: all 10s;
+}
+
+.navbar ul {
+    margin-top: 40px;
+}
+
+
+.navbar ul li:hover {
+    color: red;
+}
+
+.navbar img {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.navbar .icons {
+    display: flex;
+    gap: 23px;
+    color: #1F2E35;
+    font-size: 20px;
+    margin-left: 120px;
+
+}
+
+/* header end */
+
+
+/* section tecno start  */
+
+.tecno1 {
+    display: flex;
+}
+
+
+
+.tecno-info {
+    margin-top: 225px;
+    margin-left: 157px;
+    font-size: 33px;
+
+}
+
+.tecno-info p {
+    font-size: 20px;
+    color: #30444E;
+}
+
+
+.tecno-info span {
+    color: #EE4248;
+}
+
+
+.tecno-read {
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background: #EE4248;
+    transition: all 2s;
+
+}
+
+
+
+.tecno-read:hover {
+    border: 1px solid #EE4248;
+}
+
+.tecno-read p {
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 12px;
+}
+
+
+
+.tecno-img {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+
+/* section tecno end */
+
+/* section welcome start */
+
+.Welcome {
+    display: flex;
+    width: 1440px;
+    height: 500px;
+    top: 751px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F6F6F6;
+    margin-top: 150px
+}
+
+.welcome-img {
+    margin-left: 190px;
+}
+
+.welcome-lorem {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+.welcome-lorem h1 {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+
+.welcome-lorem span {
+    color: #EE4248;
+}
+
+
+.welcome-lorem p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #30444E;
+
+}
+
+
+.welcome-knugh {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background: #EE4248;
+    border-radius: 40px;
+    transition: all 10;
+}
+
+.welcome-knugh:hover {
+    background: none;
+    border: 1px solid #30444E;
+}
+
+.welcome-knugh p {
+    font-size: 22px;
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    transition: all 0.1s;
+}
+
+
+
+.welcome-knugh p:hover {
+    color: #1F2E35;
+}
+
+/* section welcome end */
+
+
+
+/* <!-- section service start  --> */
+
+.section-service {
+    display: flex;
+    margin-top: 300px;
+
+}
+
+.section-service h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1F2E35;
+    position: relative;
+    left: 37%;
+    bottom: 150px;
+
+}
+
+
+
+.service-our {
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    transition: all 1.5s;
+    margin-right: 50px;
+
+}
+
+.service-our .money {
+    font-size: 28px;
+    color: #EE4248;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.service-our p {
+    color: #30444E;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.service-our span p {
+    width: 120px;
+    height: 45px;
+    color: #FFFFFF;
+    align-content: center;
+    border-radius: 5px;
+    margin-top: 25px;
+    background: #EE4248;
+    transition: all 3s;
+
+}
+
+.service-our:hover {
+    box-shadow: 10px 10px 100px blue;
+
+
+}
+
+.service-our span p:hover {
+    background: none;
+    border: 1px solid #30444E;
+    color: #30444E;
+}
+
+
+
+/* <!-- section service end --> */
+
+
+
+
+/* <!-- section contact start --> */
+
+
+.contact-info {
+    margin-top: 250px;
+    width: 1120px;
+    height: 185px;
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+
+.contact-img h1 {
+    font-size: 18px;
+    color: #263238;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+.contact-img p {
+    font-size: 18px;
+    color: #263238;
+    font-weight: 200;
+}
+
+
+
+.contact-contact {
+    margin-top: 15px;
+
+}
+
+
+.contact-contact h1 {
+    font-size: 24px;
+    color: #263238;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-contact p {
+    font-size: 18px;
+    color: #1F2E35;
+    font-weight: 10;
+
+}
+
+
+
+footer .aaa {
+    width: 1440px;
+    height: 64px;
+    background: #EE4248;
+    list-style: none;
+
+}
+
+footer .aaa a {
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 22px;
+    left: 530px;
+    transition: all 2s;
+}
+
+footer .aaa a:hover{
+    color:#1F2E35;
+    box-shadow: 1px 1px 20px black;
+}
+
+
+
+
+
+/* <!-- section contact end --> */
